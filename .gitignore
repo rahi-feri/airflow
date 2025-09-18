@@ -1,3 +1,8 @@
-/config
+# igonre
+
+config/*
 /logs
 /plugins
+
+# dont ignore
+!config/airflow_local_settings.py
